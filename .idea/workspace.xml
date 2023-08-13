@@ -9,9 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962a6a30-399c-4fd5-a088-6f2a0b245a33" name="Changes" comment="add bottom for edit person in show view">
+    <list default="true" id="962a6a30-399c-4fd5-a088-6f2a0b245a33" name="Changes" comment="add delete function and bottom for creation new person">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +197,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691490685025</updated>
       <workItem from="1691490686280" duration="6768000" />
-      <workItem from="1691958641441" duration="2243000" />
+      <workItem from="1691958641441" duration="4277000" />
     </task>
     <task id="LOCAL-00001" summary="Add method show and index for GET http request and create for POST http request">
       <created>1691959021457</created>
@@ -214,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691960737281</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add delete function and bottom for creation new person">
+      <created>1691961075909</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691961075909</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +237,7 @@
     <MESSAGE value="Add method show and index for GET http request and create for POST http request" />
     <MESSAGE value="Add method update for PATCH http method and filter config to map all http methods" />
     <MESSAGE value="add bottom for edit person in show view" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bottom for edit person in show view" />
+    <MESSAGE value="add delete function and bottom for creation new person" />
+    <option name="LAST_COMMIT_MESSAGE" value="add delete function and bottom for creation new person" />
   </component>
 </project>
