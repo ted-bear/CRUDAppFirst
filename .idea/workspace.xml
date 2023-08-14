@@ -9,7 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962a6a30-399c-4fd5-a088-6f2a0b245a33" name="Changes" comment="write update, delete, show methods with PreparedStatements" />
+    <list default="true" id="962a6a30-399c-4fd5-a088-6f2a0b245a33" name="Changes" comment="add bean for jdbcTemplate in springConfig">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/dao/PersonMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/dao/PersonDAO.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -191,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691490685025</updated>
       <workItem from="1691490686280" duration="6768000" />
-      <workItem from="1691958641441" duration="9313000" />
+      <workItem from="1691958641441" duration="10141000" />
     </task>
     <task id="LOCAL-00001" summary="Add method show and index for GET http request and create for POST http request">
       <created>1691959021457</created>
@@ -242,7 +246,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692012602495</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add bean for jdbcTemplate in springConfig">
+      <created>1692027616673</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692027616673</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add bean for jdbcTemplate in springConfig">
+      <created>1692027644161</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692027644161</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +275,7 @@
     <MESSAGE value="Connect to database, create new table Person, rewrite methods save and index in PersonDAO" />
     <MESSAGE value="Connect to database with JDBC API, create new table Person, rewrite methods save and index in PersonDAO" />
     <MESSAGE value="write update, delete, show methods with PreparedStatements" />
-    <option name="LAST_COMMIT_MESSAGE" value="write update, delete, show methods with PreparedStatements" />
+    <MESSAGE value="add bean for jdbcTemplate in springConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bean for jdbcTemplate in springConfig" />
   </component>
 </project>
