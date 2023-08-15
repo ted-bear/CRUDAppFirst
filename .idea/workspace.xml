@@ -9,10 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962a6a30-399c-4fd5-a088-6f2a0b245a33" name="Changes" comment="add bean for jdbcTemplate in springConfig">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/dao/PersonMapper.java" afterDir="false" />
+    <list default="true" id="962a6a30-399c-4fd5-a088-6f2a0b245a33" name="Changes" comment="Rewrite PersonDAO with JdbcTemplate">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/config/SpringConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +31,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -66,28 +67,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "4f634cb70d482eae3cd86a1d28a09491",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4f634cb70d482eae3cd86a1d28a09491&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\trolo\IdeaProjects\CRUDApp\src\main\webapp\WEB-INF\views\people" />
@@ -195,7 +196,8 @@
       <option name="presentableId" value="Default" />
       <updated>1691490685025</updated>
       <workItem from="1691490686280" duration="6768000" />
-      <workItem from="1691958641441" duration="10141000" />
+      <workItem from="1691958641441" duration="11312000" />
+      <workItem from="1692086414152" duration="1439000" />
     </task>
     <task id="LOCAL-00001" summary="Add method show and index for GET http request and create for POST http request">
       <created>1691959021457</created>
@@ -260,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692027644161</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Create PersonMapper that implements RowMapper interface">
+      <created>1692028488292</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692028488292</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Rewrite PersonDAO with JdbcTemplate">
+      <created>1692028722659</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692028722659</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +292,8 @@
     <MESSAGE value="Connect to database with JDBC API, create new table Person, rewrite methods save and index in PersonDAO" />
     <MESSAGE value="write update, delete, show methods with PreparedStatements" />
     <MESSAGE value="add bean for jdbcTemplate in springConfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bean for jdbcTemplate in springConfig" />
+    <MESSAGE value="Create PersonMapper that implements RowMapper interface" />
+    <MESSAGE value="Rewrite PersonDAO with JdbcTemplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rewrite PersonDAO with JdbcTemplate" />
   </component>
 </project>
