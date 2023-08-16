@@ -9,12 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962a6a30-399c-4fd5-a088-6f2a0b245a33" name="Changes" comment="Add batch update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/util/PersonValidator.java" afterDir="false" />
+    <list default="true" id="962a6a30-399c-4fd5-a088-6f2a0b245a33" name="Changes" comment="Add validation for email">
       <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +204,7 @@
       <workItem from="1691490686280" duration="6768000" />
       <workItem from="1691958641441" duration="11312000" />
       <workItem from="1692086414152" duration="5132000" />
-      <workItem from="1692178418664" duration="3922000" />
+      <workItem from="1692178418664" duration="4854000" />
     </task>
     <task id="LOCAL-00001" summary="Add method show and index for GET http request and create for POST http request">
       <created>1691959021457</created>
@@ -296,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692100407699</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add validation for email">
+      <created>1692189920637</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692189920637</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +324,7 @@
     <MESSAGE value="Rewrite PersonDAO with JdbcTemplate" />
     <MESSAGE value="move all properties for db to properties file" />
     <MESSAGE value="Add batch update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add batch update" />
+    <MESSAGE value="Add validation for email" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add validation for email" />
   </component>
 </project>
