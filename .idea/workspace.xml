@@ -9,11 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962a6a30-399c-4fd5-a088-6f2a0b245a33" name="Changes" comment="move all properties for db to properties file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/controllers/BatchController.java" afterDir="false" />
+    <list default="true" id="962a6a30-399c-4fd5-a088-6f2a0b245a33" name="Changes" comment="Add batch update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/util/PersonValidator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/toporkov/springcourse/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,30 +68,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/trolo/IdeaProjects/CRUDApp/src/main/webapp/WEB-INF/views/batch",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "4f634cb70d482eae3cd86a1d28a09491",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/trolo/IdeaProjects/CRUDApp/src/main/webapp/WEB-INF/views/batch&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4f634cb70d482eae3cd86a1d28a09491&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\trolo\IdeaProjects\CRUDApp\src\main\webapp\WEB-INF\views\batch" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\trolo\IdeaProjects\CRUDApp\src\main\webapp\WEB-INF\views\people" />
     </key>
@@ -199,7 +202,8 @@
       <updated>1691490685025</updated>
       <workItem from="1691490686280" duration="6768000" />
       <workItem from="1691958641441" duration="11312000" />
-      <workItem from="1692086414152" duration="2481000" />
+      <workItem from="1692086414152" duration="5132000" />
+      <workItem from="1692178418664" duration="3922000" />
     </task>
     <task id="LOCAL-00001" summary="Add method show and index for GET http request and create for POST http request">
       <created>1691959021457</created>
@@ -285,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692099374210</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add batch update">
+      <created>1692100407699</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692100407699</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +315,7 @@
     <MESSAGE value="Create PersonMapper that implements RowMapper interface" />
     <MESSAGE value="Rewrite PersonDAO with JdbcTemplate" />
     <MESSAGE value="move all properties for db to properties file" />
-    <option name="LAST_COMMIT_MESSAGE" value="move all properties for db to properties file" />
+    <MESSAGE value="Add batch update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add batch update" />
   </component>
 </project>
